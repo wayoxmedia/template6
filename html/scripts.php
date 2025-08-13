@@ -1,6 +1,3 @@
-<?php
-require_once("../secure/config.php");
-?>
 <!-- Scripts -->
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>

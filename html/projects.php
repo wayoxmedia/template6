@@ -1,14 +1,11 @@
-<?php
-require_once("../secure/config.php");
-?>
 <div class="projects section" id="projects">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
         <div class="section-heading">
-          <h2>Discover Our <em>Work</em> &amp; <span>Projects</span></h2>
+          <h2><?= TXT_PROJECTS_TITLES; ?></h2>
           <div class="line-dec"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod.</p>
+          <p><?= TXT_PROJECTS_DESC; ?></p>
         </div>
       </div>
     </div>
@@ -18,45 +15,45 @@ require_once("../secure/config.php");
       <div class="col-lg-12">
         <div class="owl-features owl-carousel">
           <div class="item">
-            <img src="assets/images/projects-01.jpg" alt="">
+            <img src="<?= IMG_PROJECTS_ITEM_ONE; ?>" alt="">
             <div class="down-content">
-              <h4>Digital Agency HTML Templates</h4>
-              <a href="#"><i class="fa fa-link"></i></a>
+              <h4><?= TXT_PROJECTS_ITEM_ONE; ?></h4>
+              <a href="<?= URL_PROJECT_ITEM_ONE; ?>"><i class="fa fa-link"></i></a>
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/projects-02.jpg" alt="">
+            <img src="<?= IMG_PROJECTS_ITEM_TWO; ?>" alt="">
             <div class="down-content">
-              <h4>Admin Dashboard CSS Templates</h4>
-              <a href="#"><i class="fa fa-link"></i></a>
+              <h4><?= TXT_PROJECTS_ITEM_TWO; ?></h4>
+              <a href="<?= URL_PROJECT_ITEM_TWO; ?>"><i class="fa fa-link"></i></a>
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/projects-03.jpg" alt="">
+            <img src="<?= IMG_PROJECTS_ITEM_THREE; ?>" alt="">
             <div class="down-content">
-              <h4>Best Responsive Website Layouts</h4>
-              <a href="#"><i class="fa fa-link"></i></a>
+              <h4><?= TXT_PROJECTS_ITEM_THREE; ?></h4>
+              <a href="<?= URL_PROJECT_ITEM_THREE; ?>"><i class="fa fa-link"></i></a>
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/projects-04.jpg" alt="">
+            <img src="<?= IMG_PROJECTS_ITEM_FOUR; ?>" alt="">
             <div class="down-content">
-              <h4>HTML CSS Layouts for your websites</h4>
-              <a href="#"><i class="fa fa-link"></i></a>
+              <h4><?= TXT_PROJECTS_ITEM_FOUR; ?></h4>
+              <a href="<?= URL_PROJECT_ITEM_FOUR; ?>"><i class="fa fa-link"></i></a>
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/projects-02.jpg" alt="">
+            <img src="<?= IMG_PROJECTS_ITEM_FIVE; ?>" alt="">
             <div class="down-content">
-              <h4>Bootstrap 5 Themes for Free</h4>
-              <a href="#"><i class="fa fa-link"></i></a>
+              <h4><?= TXT_PROJECTS_ITEM_FIVE; ?></h4>
+              <a href="<?= URL_PROJECT_ITEM_FIVE; ?>"><i class="fa fa-link"></i></a>
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/projects-03.jpg" alt="">
+            <img src="<?= IMG_PROJECTS_ITEM_SIX; ?>" alt="">
             <div class="down-content">
-              <h4>Mobile Friendly Website Layouts</h4>
-              <a href="#"><i class="fa fa-link"></i></a>
+              <h4><?= TXT_PROJECTS_ITEM_SIX; ?></h4>
+              <a href="<?= URL_PROJECT_ITEM_SIX; ?>"><i class="fa fa-link"></i></a>
             </div>
           </div>
         </div>

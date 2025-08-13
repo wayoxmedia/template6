@@ -1,6 +1,3 @@
-<?php
-require_once("../secure/config.php");
-?>
 <!-- ***** Header Area Start ***** -->
 <header class="header-area header-sticky">
   <div class="container">
@@ -9,26 +6,37 @@ require_once("../secure/config.php");
         <nav class="main-nav">
           <!-- ***** Logo Start ***** -->
           <a href="index.html" class="logo">
-            <img src="assets/images/logo.png" alt="" style="max-width: 112px;">
+             <img src="<?= LOGO; ?>" alt="" 
+                 style="max-width: 112px;">
           </a>
           <!-- ***** Logo End ***** -->
           <!-- ***** Menu Start ***** -->
           <ul class="nav">
-            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-            <li class="scroll-to-section"><a href="#services">Services</a></li>
-            <li class="scroll-to-section"><a href="#projects">Projects</a></li>
+            <li class="scroll-to-section">
+              <a href="#top" class="active"><?= SCROLL_TOP; ?></a>
+            </li>
+            <li class="scroll-to-section">
+              <a href="#services"><?= SCROLL_SERVICES; ?></a>
+            </li>
+            <li class="scroll-to-section">
+              <a href="#projects"><?= SCROLL_PROJECTS; ?></a>
+            </li>
             <li class="has-sub">
-              <a href="javascript:void(0)">Pages</a>
+              <a href="javascript:void(0)"><?= PAGES; ?></a>
               <ul class="sub-menu">
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="faqs.html">FAQs</a></li>
+                <li><?= ABOUT; ?></li>
+                <li><?= FAQS; ?></li>
               </ul>
             </li>
-            <li class="scroll-to-section"><a href="#infos">Infos</a></li>
-            <li class="scroll-to-section"><a href="#contact">Contact</a></li>
+            <li class="scroll-to-section">
+              <a href="#infos"><?= SCROLL_INFOS; ?></a>
+            </li>
+            <li class="scroll-to-section">
+              <a href="#contact"><?= SCROLL_CONTACT; ?></a>
+            </li>
           </ul>
           <a class='menu-trigger'>
-            <span>Menu</span>
+            <span><?= MENU_TRIGGER; ?></span>
           </a>
           <!-- ***** Menu End ***** -->
         </nav>
