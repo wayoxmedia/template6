@@ -28,7 +28,7 @@ const SCROLL_TOP = '';
 const SCROLL_SERVICES = '';
 const SCROLL_PROJECTS = '';
 const PAGES = '';
-CONST ABOUT = '';
+CONST ABOUT = ''; 
 CONST FAQS = '';
 const SCROLL_TO_INFOS = '';
 const SCROLL_TO_CONTACT = '';
@@ -38,7 +38,6 @@ const MENU_TRIGGER = '';
 const IMG_INFOS = '';
 const TXT_INFOS_TITLE = '';
 const TXT_INFO = '';
-const TXT_STATISTICS_ONE = '';
 const STATISTICS_ONE = '';
 const TXT_STATISTICS_TWO = '';
 const STATISTICS_TWO = '';
@@ -48,8 +47,7 @@ const TXT_STATISTICS_DESC = '';
 
 //mainBanner.php
 const TXT_BANNER_TITLE = '';
-const TXT_BANNER_SUBTITLE = '';
-const TXT_BANNER_DESC = '';    
+const TXT_BANNER_SUBTITLE = '';    
 const TXT_BANNER_BUTTON = '';
 const ALTERNATIVE_BANNER = '';
 const TXT_BANNER_SECOND_BUTTON = '';
@@ -58,31 +56,22 @@ const TXT_BANNER_SECOND_BUTTON = '';
 const FA_PHONE = '';
 const FA_EMAIL = '';
 const FA_MAP_MARKER = '';
-const FA_FACEBOOK = '';
-const FA_LINKEDIN = '';
-CONST FA_GOOGLE_PLUS = '';
 
 //projects.php
 const TXT_PROJECTS_TITLE = '';
 const TXT_PROJECTS_DESC = '';
 const IMG_PROJECTS_ITEM_ONE = '';
 const TXT_PROJECTS_ITEM_ONE = '';
-const URL_PROJECT_ITEM_ONE = '';
 const IMG_PROJECTS_ITEM_TWO = '';
 const TXT_PROJECTS_ITEM_TWO = '';
-const URL_PROJECT_ITEM_TWO = '';
 const IMG_PROJECTS_ITEM_THREE = '';
 const TXT_PROJECTS_ITEM_THREE = '';
-const URL_PROJECT_ITEM_THREE = '';
 const IMG_PROJECTS_ITEM_FOUR = '';
 const TXT_PROJECTS_ITEM_FOUR = '';
-const URL_PROJECT_ITEM_FOUR = '';
 const IMG_PROJECTS_ITEM_FIVE = '';
 const TXT_PROJECTS_ITEM_FIVE = '';
-const URL_PROJECT_ITEM_FIVE = '';
 const IMG_PROJECTS_ITEM_SIX = '';
 const TXT_PROJECTS_ITEM_SIX = '';
-const URL_PROJECT_ITEM_SIX = '';
 
 //services.php
 const TXT_SERVICES_TITLE = '';
@@ -95,3 +84,11 @@ const IMG_SERVICES_PROYECT_THREE = '';
 const TXT_SERVICES_PROYECT_THREE = '';
 const IMG_SERVICES_PROYECT_FOUR = '';
 const TXT_SERVICES_PROYECT_FOUR = '';
+
+// subscribe.php
+const TXT_SUBSCRIBE_TITLE = '';
+const TXT_SUBSCRIBE_DESC = '';
+const SELECT_SUBSCRIBE_ONE = '';
+const SELECT_SUBSCRIBE_TWO = '';
+const SELECT_SUBSCRIBE_THREE = '';
+const TXT_SUBSCRIBE_BUTTON = '';

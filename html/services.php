@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="section-heading">
-              <h2><?= TXT_SERVICES_TITLES; ?></h2>
+              <h2><?= TXT_SERVICES_TITLE; ?></h2>
               <div class="line-dec"></div>
               <p><?= TXT_SERVICES_DESC; ?></p>
             </div>
@@ -39,7 +39,7 @@
               <div class="icon">
                 <img src="<?= IMG_SERVICES_PROYECT_FOUR; ?>" alt="SEO marketing" class="templatemo-feature">
               </div>
-              <h4></h4>
+              <h4> <?= TXT_SERVICES_PROYECT_FOUR; ?></h4>
             </div>
           </div>
         </div>

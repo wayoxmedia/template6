@@ -5,9 +5,9 @@
       <div class="col-lg-8 col-sm-9">
         <div class="left-info">
           <ul>
-            <li><?= FA_PHONE; ?></li>
-            <li><?= FA_EMAIL; ?></li>
-            <li><?= FA_MAP_MARKER; ?></li>
+            <li><a href="#"><i class="fa fa-phone"></i><?= FA_PHONE; ?></a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i><?= FA_EMAIL; ?></a></li>
+            <li><a href="#"><i class="fa fa-map-marker"></i><?= FA_MAP_MARKER; ?></a></li>
           </ul>
         </div>
       </div>
@@ -15,9 +15,9 @@
         <div class="social-icons">
           <ul>
             <li></li>
-            <li><?= FA_FACEBOOK; ?></li>
-            <li><?= FA_LINKEDIN; ?></li>
-            <li><?= FA_GOOGLE_PLUS; ?></li>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
           </ul>
         </div>
       </div>

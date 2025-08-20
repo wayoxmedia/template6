@@ -24,15 +24,15 @@
             <li class="has-sub">
               <a href="javascript:void(0)"><?= PAGES; ?></a>
               <ul class="sub-menu">
-                <li><?= ABOUT; ?></li>
-                <li><?= FAQS; ?></li>
+                <li><a href="about.html"><?= ABOUT; ?></a></li>
+                <li><a href="faqs.html"><?= FAQS; ?></a></li>
               </ul>
             </li>
             <li class="scroll-to-section">
-              <a href="#infos"><?= SCROLL_INFOS; ?></a>
+              <a href="#infos"><?= SCROLL_TO_INFOS; ?></a>
             </li>
             <li class="scroll-to-section">
-              <a href="#contact"><?= SCROLL_CONTACT; ?></a>
+              <a href="#contact"><?= SCROLL_TO_CONTACT; ?></a>
             </li>
           </ul>
           <a class='menu-trigger'>

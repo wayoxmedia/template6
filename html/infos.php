@@ -13,7 +13,7 @@
               <div class="section-heading">
                 <h2><?= TXT_INFOS_TITLE; ?></h2>
                 <div class="line-dec"></div>
-                <p><?= TXT_INFOS; ?></p>
+                <p><?= TXT_INFO; ?></p>
               </div>
               <div class="skills">
                 <div class="skill-slide marketing">

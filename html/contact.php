@@ -81,20 +81,20 @@
                   <div class="col-lg-4">
                     <div class="info-item">
                       <i class="fa fa-phone"></i>
-                      <h4><?= NUMBER_OF_CONTACTS; ?></h4>
+                      <h4><a href="#"><?= NUMBER_OF_CONTACTS; ?></a></h4>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="info-item">
                       <i class="fa fa-envelope"></i>
-                      <h4><?= EMAIL_INFO; ?></h4>
-                      <h4><?= EMAIL_CONTACT; ?></h4>
+                      <h4><a href="#"><?= EMAIL_INFO; ?></a></h4>
+                      <h4><a href="#"><?= EMAIL_CONTACT; ?></a></h4>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="info-item">
                       <i class="fa fa-map-marker"></i>
-                      <h4><?= LOCATE_CONTACT; ?></h4>
+                      <h4><a href="#"><?= LOCATE_CONTACT; ?></a></h4>
                     </div>
                   </div>
                 </div>
