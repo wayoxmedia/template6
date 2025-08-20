@@ -9,6 +9,16 @@
     border-color: #5b03e4;
   }
 
+  .btn-primary:active {
+  background-color: #c03afe !important; /* rosado mientras se oprime */
+  border-color: #c03afe !important;
+ }
+
+ .btn-primary:hover {
+  background-color: #a23df7; /* morado más claro al pasar el mouse */
+  border-color: #a23df7;
+ }
+
   #selAddressType, #iptAddress {
     background-color: #f9ebff;
   }
@@ -19,7 +29,7 @@
 
   .text-dark {
   color: #212529;
-}
+ }
 
   .text-pink {
     color: #c03afe;
@@ -32,7 +42,7 @@
     <div class="col-12 col-sm-10 col-md-8 col-lg-7">
       <div class="card p-4 shadow-lg border-0 rounded-4" style="background-color: #ffffff;">
         <div class="card-body text-center">
-          <h3 class="fw-bold mb-2"><?= TXT_SUBSCRIBE_TITLE; ?><em><?= SITE_NAME; ?></em></h3>
+          <h3 class="fw-bold mb-2"><?= TXT_SUBSCRIBE_TITLE; ?></h3>
           <p><?= TXT_SUBSCRIBE_DESC; ?></p>
             <form id="subscribeForm" class="d-flex flex-column flex-sm-row justify-content-center align-items-center"
               method="POST"> 
@@ -47,7 +57,7 @@
                 <input type="text" class="form-control" id="iptAddress" name="iptAddress" placeholder="Enter your address">
               </div>
               <div class="flex-shrink-0">
-                <button type="submit" class="btn btn-primary btn-lg rounded-pill" id='btnSubmitSubscribe'><?= TXT_BUTTON_SUBSCRIBE; ?></button>
+                <button type="submit" class="btn btn-primary btn-lg rounded-pill" id='btnSubmitSubscribe'><?= TXT_SUBSCRIBE_BUTTON; ?></button>
               </div>
             </form>
           <p id="pMessage" class="mt-3 text-success text-center d-none"></p>
