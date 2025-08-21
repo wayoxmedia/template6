@@ -1475,6 +1475,47 @@ Infos Style
 }
 
 /*---------------------------------------------
+Suscribe Style
+---------------------------------------------
+*/
+
+.container.py-5 {
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+  }
+
+  .btn-primary {
+    background-color: #5b03e4;
+    border-color: #5b03e4;
+  }
+
+  .btn-primary:active {
+  background-color: #c03afe !important; /* rosado mientras se oprime */
+  border-color: #c03afe !important;
+ }
+
+ .btn-primary:hover {
+  background-color: #a23df7; /* morado más claro al pasar el mouse */
+  border-color: #a23df7;
+ }
+
+  #selAddressType, #iptAddress {
+    background-color: #f9ebff;
+  }
+
+  .text-purple {
+  color: #5b03e4;
+  }
+
+  .text-dark {
+  color: #212529;
+ }
+
+  .text-pink {
+    color: #c03afe;
+  }
+
+/*---------------------------------------------
 Happy Clients Style
 ---------------------------------------------
 */

@@ -32,37 +32,18 @@
                   </div>
                   <div class="col-lg-6">
                     <fieldset>
-                      <input type="surname" 
-                             name="surname" 
-                             id="surname" \ 
-                             placeholder="Your Surname..."
-                             autocomplete="on" required>
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-6">
-                    <fieldset>
                       <input type="text" 
                              name="email" 
                              id="email"
-                             pattern="[^ @]*@[^ @]*"
                              placeholder="Your E-mail..."
                              required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-6">
-                    <fieldset>
-                      <input type="subject"
-                             name="subject"
-                             id="subject"
-                             placeholder="Subject..."
-                             autocomplete="on">
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
                       <textarea name="message"
                                 id="message"
-                                placeholder="Your Message">
+                                placeholder="<?= TXT_YOUR_MESSAGE; ?>">
                       </textarea>
                     </fieldset>
                   </div>

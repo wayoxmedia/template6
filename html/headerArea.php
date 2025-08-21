@@ -7,7 +7,7 @@
           <!-- ***** Logo Start ***** -->
           <a href="index.html" class="logo">
              <img src="<?= LOGO; ?>" alt="" 
-                 style="max-width: 112px;">
+                  style="max-width: 112px;">
           </a>
           <!-- ***** Logo End ***** -->
           <!-- ***** Menu Start ***** -->

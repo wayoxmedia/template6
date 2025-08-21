@@ -14,7 +14,7 @@
       <div class="col-lg-4 col-sm-3">
         <div class="social-icons">
           <ul>
-            <li></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
             <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
             <li><a href="#"><i class="fab fa-google-plus"></i></a></li>

@@ -8,7 +8,7 @@ $(document).ready(function() {
 
   // Bind Events
   // When the form is submitted.
-  $subscribeForm.on('submit', function(event) { debugger;
+  $subscribeForm.on('submit', function(event) {
     event.preventDefault();
     let $pMessage = $('#pMessage');
     let arrErrors = [];
@@ -54,7 +54,7 @@ $(document).ready(function() {
       }
       if ($iptAddress.val().length < 8) {
         isValid = false;
-        arrErrors.push('El campo de dirección debe tener al menos 8 caracteres.');
+        arrErrors.push('El campo de dirección debe tener al menos 10 caracteres.');
       }
       if (!isValidPhoneNumber($iptAddress.val())) {
         isValid = false;
@@ -115,7 +115,7 @@ $(document).ready(function() {
   });
 
   // When the address type is changed.
-  $selAddressType.on('change', function () {
+  $selAddressType.change(function () {
     let selectedValue = $(this).val();
 
     if (selectedValue === 'e') {
