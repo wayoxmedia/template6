@@ -205,18 +205,18 @@
 	});
 
 	function onScroll(event){
-	    var scrollPos = $(document).scrollTop();
-	    $('.nav a').each(function () {
-	        var currLink = $(this);
-	        var refElement = $(currLink.attr("href"));
-	        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-	            $('.nav ul li a').removeClass("active");
-	            currLink.addClass("active");
-	        }
-	        else{
-	            currLink.removeClass("active");
-	        }
-	    });
+		var scrollPos = $(document).scrollTop();
+		$('.nav a').each(function () {
+			var currLink = $(this);
+			var refElement = $(currLink.attr("href"));
+			var pos = refElement.position();
+			if (pos && pos.top <= scrollPos && pos.top + refElement.height() > scrollPos) {
+				$('.nav ul li a').removeClass("active");
+				currLink.addClass("active");
+			} else {
+				currLink.removeClass("active");
+			}
+		});
 	}
 
 

@@ -1,6 +1,3 @@
-<?php
-require_once("../secure/config.php");
-?>
 <div class="services section" id="services">
   <div class="container">
     <div class="row">
@@ -8,43 +5,41 @@ require_once("../secure/config.php");
         <div class="row">
           <div class="col-lg-12">
             <div class="section-heading">
-              <h2>We Provide <em>Different Services</em> &amp;
-                <span>Features</span> For Your Agency
-              </h2>
+              <h2><?= TXT_SERVICES_TITLE; ?></h2>
               <div class="line-dec"></div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod.</p>
+              <p><?= TXT_SERVICES_DESC; ?></p>
             </div>
           </div>
           <div class="col-lg-6 col-sm-6">
             <div class="service-item">
               <div class="icon">
-                <img src="assets/images/services-01.jpg" alt="discover SEO" class="templatemo-feature">
+                <img src="<?= IMG_SERVICES_PROYECT_ONE; ?>" alt="discover SEO" class="templatemo-feature">
               </div>
-              <h4>Discover More on Latest SEO Trends</h4>
+              <h4><?= TXT_SERVICES_PROYECT_ONE; ?></h4>
             </div>
           </div>
           <div class="col-lg-6 col-sm-6">
             <div class="service-item">
               <div class="icon">
-                <img src="assets/images/services-02.jpg" alt="data analysis" class="templatemo-feature">
+                <img src="<?= IMG_SERVICES_PROYECT_TWO; ?>" alt="data analysis" class="templatemo-feature">
               </div>
-              <h4>Real-Time Big Data Analysis</h4>
+              <h4><?= TXT_SERVICES_PROYECT_TWO; ?></h4>
             </div>
           </div>
           <div class="col-lg-6 col-sm-6">
             <div class="service-item">
               <div class="icon">
-                <img src="assets/images/services-03.jpg" alt="precise data" class="templatemo-feature">
+                <img src="<?= IMG_SERVICES_PROYECT_THREE; ?>" alt="precise data" class="templatemo-feature">
               </div>
-              <h4>Precise Data Analysis &amp; Prediction</h4>
+              <h4><?= TXT_SERVICES_PROYECT_THREE; ?></h4>
             </div>
           </div>
           <div class="col-lg-6 col-sm-6">
             <div class="service-item">
               <div class="icon">
-                <img src="assets/images/services-04.jpg" alt="SEO marketing" class="templatemo-feature">
+                <img src="<?= IMG_SERVICES_PROYECT_FOUR; ?>" alt="SEO marketing" class="templatemo-feature">
               </div>
-              <h4>SEO Marketing &amp; Social Media</h4>
+              <h4> <?= TXT_SERVICES_PROYECT_FOUR; ?></h4>
             </div>
           </div>
         </div>
